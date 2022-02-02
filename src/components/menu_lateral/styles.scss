@@ -1,0 +1,131 @@
+#menu_lateral {
+  height: 100%;
+  width: 15rem;
+  background-color: black;
+
+  .logo_spotify {
+    width: 100%;
+    height: 6rem;
+    padding: 0 1.5rem;
+
+    img {
+      width: 8.5rem;
+    }
+  }
+
+  ////////////////////////////////////////////////////////////////////MENU ITEM
+  .itens_menu {
+    width: 100%;
+    height: 8rem;
+
+    cursor: pointer;
+
+    .iten {
+      width: 100%;
+      height: 3rem;
+      padding: 0 1.5rem;
+
+      display: flex;
+      align-items: center;
+      opacity: 0.9;
+
+      .icon {
+        width: 1.7rem;
+        color: #b1aeae;
+      }
+
+      .icon_search,
+      .icon_library {
+        width: 1.6rem;
+        color: #b1aeae;
+      }
+
+      span {
+        color: #b1aeae;
+        font-size: 1.1rem;
+
+        margin-left: 1.3rem;
+        margin-top: 1.7rem;
+      }
+    }
+
+    .iten:hover {
+      opacity: 1;
+    }
+  }
+  ////////////////////////////////////////////////////////////////////MENU MUSIC
+  .menu_music {
+    width: 100%;
+    height: 7.5rem;
+    padding: 1.5rem 0;
+
+    .iten {
+      width: 100%;
+      height: 3rem;
+      padding: 0 1.5rem;
+
+      cursor: pointer;
+
+      display: flex;
+      align-items: center;
+      opacity: 0.9;
+
+      .icon {
+        width: 1.7rem;
+        color: #b1aeae;
+      }
+
+      span {
+        color: #b1aeae;
+        font-size: 1.1rem;
+
+        margin-left: 1.3rem;
+        margin-top: 1.7rem;
+      }
+    }
+
+    .iten:hover {
+      opacity: 1;
+    }
+  }
+
+  .menu_install {
+    width: 15rem;
+    height: 5rem;
+
+    margin-bottom: 0.01rem;
+
+    position: absolute;
+    bottom: 0;
+
+    .iten {
+      width: 100%;
+      height: 5rem;
+      padding: 0 1.5rem;
+
+      cursor: pointer;
+
+      display: flex;
+      align-items: center;
+      opacity: 0.9;
+
+      .icon {
+        width: 1.4rem;
+        color: #b1aeae;
+      }
+
+      span {
+        color: #b1aeae;
+        font-size: 1rem;
+        font-weight: bold;
+
+        margin-left: 1.3rem;
+        margin-top: 3.8rem;
+      }
+    }
+
+    .iten:hover {
+      opacity: 1;
+    }
+  }
+}
