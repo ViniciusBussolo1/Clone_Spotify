@@ -1,0 +1,112 @@
+#cabecalho {
+  width: 87.5%;
+  height: 4.5rem;
+  margin-left: 15rem;
+
+  background-color: #3c0f15;
+
+  display: flex;
+  align-items: center;
+
+  position: fixe;
+
+  .arrow_left {
+    height: 2rem;
+    width: 2rem;
+    margin-left: 2rem;
+
+    border-radius: 50%;
+
+    text-align: center;
+    cursor: pointer;
+
+    background-color: #22090c;
+    color: #b1aeae;
+
+    opacity: 0.9;
+  }
+
+  .arrow_right {
+    height: 2rem;
+    width: 2rem;
+    margin-left: 1.5rem;
+
+    border-radius: 50%;
+
+    text-align: center;
+    cursor: pointer;
+
+    background-color: #22090c;
+    color: #b1aeae;
+
+    opacity: 0.9;
+  }
+
+  .button {
+    height: 100%;
+    width: 12rem;
+    margin-left: 70rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .button_upgrade {
+      width: 11rem;
+      height: 2.3rem;
+
+      background-color: #120406;
+      color: #ffffff;
+
+      border-radius: 18px;
+      border: 1px solid #ffffff;
+
+      cursor: pointer;
+    }
+  }
+
+  .button_upgrade:hover {
+    height: 2.4rem;
+    width: 11.1rem;
+  }
+
+  .button_perfil {
+    width: 11rem;
+    height: 2.3rem;
+
+    margin-left: 3rem;
+
+    border-radius: 14px;
+    border: none;
+
+    background-color: #120406;
+    color: #ffffff;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    cursor: pointer;
+
+    div {
+      width: 1.7rem;
+      height: 1.7rem;
+
+      border-radius: 50%;
+
+      background-color: #535353;
+    }
+
+    .icon {
+      width: 1.1rem;
+    }
+
+    span {
+      margin-top: 1.2rem;
+    }
+  }
+
+  .button_perfil:hover {
+    opacity: 0.8;
+  }
+}
