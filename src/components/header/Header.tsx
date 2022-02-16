@@ -5,7 +5,7 @@ import {
   FaAngleDown,
 } from "react-icons/fa";
 
-import "./style.scss";
+import "./styles.scss";
 
 export function Header() {
   return (
