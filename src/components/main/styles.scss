@@ -1,6 +1,10 @@
+body {
+  overflow-x: hidden;
+}
+
 #main {
   width: 100vw;
-  height: 100vh;
+  height: 88rem;
   padding: 6rem 1.8rem 0 17rem;
 
   background-color: #3c0f15;
@@ -87,6 +91,96 @@
 
       .card:hover .play {
         display: block;
+      }
+    }
+
+    .title_cards {
+      height: 3rem;
+
+      margin-top: 2rem;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      color: #fff;
+
+      h2 {
+        width: 25rem;
+        height: 2rem;
+
+        cursor: pointer;
+      }
+
+      h2:hover {
+        text-decoration: underline;
+      }
+
+      span {
+        height: 1rem;
+        color: #b3b3b3;
+
+        cursor: pointer;
+      }
+
+      span:hover {
+        text-decoration: underline;
+      }
+    }
+
+    ////////////////////////////////////////////////////////////////////CARDS EPISODIOS
+    .cards_episodios {
+      height: 15rem;
+
+      display: flex;
+      justify-content: space-between;
+
+      margin-top: 1rem;
+
+      .card_episodio {
+        width: 11rem;
+
+        text-align: center;
+
+        padding-top: 15px;
+
+        border-radius: 3%;
+
+        background-color: #282828;
+
+        cursor: pointer;
+
+        .logo_episodio {
+          width: 9rem;
+          height: 9rem;
+
+          border-radius: 4%;
+        }
+
+        .titles {
+          height: 4rem;
+
+          p {
+            height: 1rem;
+          }
+
+          .title {
+            color: #fff;
+            font-weight: bold;
+            font-size: 1.1rem;
+          }
+
+          .subtitle {
+            margin-top: 0.7rem;
+            font-size: 0.8rem;
+
+            color: #b3b3b3;
+          }
+        }
+      }
+
+      .card_episodio:hover {
+        background-color: #363636;
       }
     }
   }
