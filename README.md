@@ -1,6 +1,6 @@
 # Clone_Spotify
 
-Clone da interface do spotify web player
+Clone da interface do spotify 
 
 ## 💻 Projeto
 
